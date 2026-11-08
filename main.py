@@ -6,7 +6,7 @@ max_words = 1000
 
 VALIDATION_RULES = {
     "cyrillic": re.compile(r"[а-яіїєґ]", re.IGNORECASE),
-    "non_ukr_letters": re.compile(r"[ыэъёa-zA-Z]", re.IGNORECASE),
+    "non_ukr_letters": re.compile(r"[a-zA-Z]", re.IGNORECASE),
 }
 
 MESSAGES = {
